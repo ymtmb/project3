@@ -1,0 +1,32 @@
+h1 {
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	background-color: #151414;
+	border-radius: 75%;
+	width: 500px;
+	margin: 30px auto;
+	color:white;
+
+}
+.right {
+	text-align: right;
+}
+p	{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+h3{
+	font-family: 'Playfair Display', serif;
+}
+h2{
+	background-color: #151414;
+	font-family: 'Playfair Display', serif;
+	color: white;
+} 
+li {
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	background-color: #89e0f0;
+}
