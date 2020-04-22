@@ -107,8 +107,9 @@ body {
 
 div#center1 h1 {
 	text-align: center;
-	font-family: 'Playfair Display', serif;
 	color:white;
+	font-family: 'Playfair Display', serif;
+	
 
 }
 div#info h1 {
