@@ -2,29 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-	<meta name="viewport" content="initial-scale=1.0">
-      <title>Google Maps</title>
-	  <link rel="stylesheet" type="text/css" href="css/reset.css">
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
-	  <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
-	  <script src="js/script.js"></script>
+	  <title>Google Maps</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+	  
   </head>
   <body>
-    <div>
-	  <nav id="navbar-container">
-		<ul>
-		  <li><a href="index.html">Resume</a></li>
-		  <li><a href="KawhiLeonard.html">Kawhi Leonard</a></li>
-		  <li><a href="DaBaby.html">DaBaby</a></li>
-		  <li id="onpage"><a href="#">Google Maps</a></li
-		</ul>
-	  </nav>
-	</div>
+		<nav id = "main-navbar">
+			<div id = "navbar-container">
+				<ul>
+					<li><a href="KawhiLeonard.html">KawhiLeonard</a></li>
+					<li><a href="DaBaby.html">DaBaby</a></li>
+					<li><a href="index.html">Resume</a></li>
+					<li><a href="map.html">Google Maps</a></li>
+				</ul>
+			</div>
+		</nav>
+
+	
     <div id="map"></div>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMFUxKOb0Npe9Klgrl6JuAWr71FzXghg0&callback=initMap"></script>
-
-    <!--Slideshow-->
+	<!-- Added Map Marker, Satellite Mode, and rounded out map. Had trouble adding anything else in because of the billing setup requirement.-->
+			
+	<!--Slideshow-->
     <img src="images/bean.jpg" class="slide_image" id="slide_image" alt="Images of Chicago" />
+	
+    
 	
   </body>
 </html>
