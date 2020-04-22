@@ -103,12 +103,14 @@ body {
 	background-color: #000000;
 }
 
-/*////////////////////DaBaby/*///
+/*////////////////////DaBaby/*/
+
 
 div#center1 h1 {
 	text-align: center;
 	color:white;
 	font-family: 'Playfair Display', serif;
+
 	
 
 }
@@ -189,7 +191,7 @@ div#info td {
 	display: block;
 }
 
-@media screen and (max-device-width: 480px) { /*/////////Mobile Page*/
+@media screen and (max-width: 480px) { /*/////////Mobile Page*/
  main-navbar{
     width: 100%;
   }
@@ -208,7 +210,7 @@ div#info td {
   }
 }
 
-@media screen and (min-device-width: 480px) { /*/////////Wider Screen Page*/	  
+@media screen and (min-width: 480px) { /*/////////Wider Screen Page*/	  
   table.navigation{
     width: 50%;
   }
